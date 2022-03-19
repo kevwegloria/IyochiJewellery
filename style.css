@@ -413,6 +413,10 @@ body {
         font-weight: 700;
         cursor: pointer;
     }
+    .text-a:hover {
+        background-color: #473C38;
+        color: white;
+    }
     .pic2 {
         position: relative;
     }
@@ -432,6 +436,10 @@ body {
         padding: 5px 30px;
         font-weight: 700;
         cursor: pointer;
+    }
+    .text-b:hover {
+        background-color: #473C38;
+        color: white;
     }
     .pic3 {
         position: relative;
@@ -454,6 +462,10 @@ body {
         font-weight: 700;
         cursor: pointer;
     }
+    .text-c:hover {
+        background-color: #473C38;
+        color: white;
+    }
     .pic4 {
         position: relative;
     }
@@ -475,6 +487,10 @@ body {
         font-weight: 700;
         cursor: pointer;
     }
+    .text-d:hover {
+        background-color: #473C38;
+        color: white;
+    }
     .pic5 {
         position: relative;
     }
@@ -495,6 +511,10 @@ body {
         padding: 5px 30px;
         font-weight: 700;
         cursor: pointer;
+    }
+    .text-e:hover {
+        background-color: #473C38;
+        color: white;
     }
 }
 
@@ -615,7 +635,7 @@ body {
 }
 
 
-/*---------SECTION 2---------*/
+/*---------SECTION 2----------------------------------------*/
 
 @media (max-width:480px) {
     .sec2 {
@@ -948,7 +968,7 @@ body {
 .sec5pic img:hover {
     cursor: pointer;
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0.5;
 }
 
 @keyframes shake {
