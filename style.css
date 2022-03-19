@@ -386,8 +386,8 @@ body {
     .pic {
         flex-direction: column;
         gap: 60px;
-        width: 300px;
-        margin-left: 45px;
+        width: 220px;
+        margin-left: 85px;
     }
     .pic a {
         display: none;
@@ -400,7 +400,7 @@ body {
         opacity: 2;
         position: absolute;
         top: 95%;
-        left: 30%;
+        left: 23%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -420,7 +420,7 @@ body {
         transition: .5s ease;
         position: absolute;
         top: 93%;
-        left: 30%;
+        left: 23%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -441,7 +441,7 @@ body {
         opacity: 2;
         position: absolute;
         top: 93%;
-        left: 30%;
+        left: 26%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -462,7 +462,7 @@ body {
         opacity: 2;
         position: absolute;
         top: 93%;
-        left: 30%;
+        left: 22%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
@@ -507,7 +507,7 @@ body {
 .column-container img:hover {
     cursor: pointer;
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0.5;
 }
 
 @keyframes shake {
@@ -552,6 +552,11 @@ body {
     font-size: 13px;
     padding: 5px 30px;
     position: absolute;
+}
+
+.column-container a:hover {
+    background-color: #473C38;
+    color: white;
 }
 
 .text-a {
@@ -633,7 +638,7 @@ body {
 .sec2 img:hover {
     cursor: pointer;
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0.5;
 }
 
 @keyframes shake {
@@ -697,6 +702,11 @@ body {
     letter-spacing: 2px;
 }
 
+.sec2 button:hover {
+    color: white;
+    background-color: #473C38;
+}
+
 
 /*--------------SECTION 3--------*/
 
@@ -733,7 +743,7 @@ body {
 .sec3cont img:hover {
     cursor: pointer;
     animation: shake 0.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0.5;
 }
 
 @keyframes shake {
@@ -875,6 +885,11 @@ body {
     letter-spacing: 2px;
 }
 
+.sec4text button:hover {
+    color: white;
+    background-color: #473C38;
+}
+
 
 /*--------------SECTION 5----------*/
 
@@ -914,6 +929,11 @@ body {
     padding: 5px 30px;
     letter-spacing: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec5text button:hover {
+    color: white;
+    background-color: #473C38;
 }
 
 .sec5pic {
@@ -1161,9 +1181,11 @@ body {
 @media (max-width:480px) {
     footer {
         flex-direction: column;
+        align-items: center;
     }
     .foot2 img {
-        width: 70%;
+        width: 90%;
+        margin-left: 10px;
     }
 }
 
